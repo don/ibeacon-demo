@@ -22,9 +22,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Region" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7D-6y-kjI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Region" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7D-6y-kjI">
                                 <rect key="frame" x="52" y="218" width="497" height="78"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -33,8 +33,8 @@
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Z7D-6y-kjI" secondAttribute="centerX" id="Asp-Z2-UzI"/>
                             <constraint firstAttribute="centerX" secondItem="6Hr-FX-lib" secondAttribute="centerX" id="S0l-Em-fUF"/>
-                            <constraint firstAttribute="centerY" secondItem="Z7D-6y-kjI" secondAttribute="centerY" id="bo0-rr-mko"/>
                             <constraint firstItem="6Hr-FX-lib" firstAttribute="top" secondItem="Z7D-6y-kjI" secondAttribute="bottom" constant="38" id="t0E-RK-hLq"/>
+                            <constraint firstItem="Z7D-6y-kjI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="uM0-MZ-yvx"/>
                         </constraints>
                     </view>
                     <connections>
