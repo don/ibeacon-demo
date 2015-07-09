@@ -28,10 +28,10 @@ CLLocationManager *locationManager;
     // Estimote
     //NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"b9407f30-f5f8-466e-aff9-25556b57fe6d"];
     
-    // AT+BLEBEACON=0x004C,01-12-23-34-45-56-67-78-89-9A-AB-BC-CD-DE-EF-F0,0x0000,0x0000,-59
+    // AT+BLEBEACON=0x004C,12-34-56-78-AA-AA-BB-BB-CC-CC-12-34-56-78-9A-BC,0x0000,0x0000,-59
     // ATZ
-    NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"01122334-4556-6778-899A-ABBCCDDEEFF0"];
-    
+    NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"12345678-AAAA-BBBB-CCCC-123456789ABC"];
+        
     CLBeaconRegion *region = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:@"iBeacon"];
     
     region.notifyOnEntry = TRUE;
