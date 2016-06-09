@@ -46,7 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				F67E43ED1AD1EA00001C8550 /* CoreLocation.framework */,
-				F67E43C61AD1E8F5001C8550 /* iBeacon */,
+				F67E43C61AD1E8F5001C8550 /* iBeaconScanner */,
 				F67E43C51AD1E8F5001C8550 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F67E43C61AD1E8F5001C8550 /* iBeacon */ = {
+		F67E43C61AD1E8F5001C8550 /* iBeaconScanner */ = {
 			isa = PBXGroup;
 			children = (
 				F67E43CB1AD1E8F5001C8550 /* AppDelegate.h */,
@@ -71,6 +71,7 @@
 				F67E43D61AD1E8F5001C8550 /* LaunchScreen.xib */,
 				F67E43C71AD1E8F5001C8550 /* Supporting Files */,
 			);
+			name = iBeaconScanner;
 			path = iBeacon;
 			sourceTree = "<group>";
 		};
