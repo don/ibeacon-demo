@@ -85,8 +85,8 @@ CLLocationManager *locationManager;
     else
     {
         // this shouldn't happen
-        NSLog(@"ERROR: Unexpected Region State %d", state);
-        [NSString stringWithFormat:@"%d", state];
+        NSLog(@"ERROR: Unexpected Region State %ld", (long)state);
+        [NSString stringWithFormat:@"%ld", (long)state];
         [_regionLabel setText:@"Error"];
     }
     
@@ -121,7 +121,7 @@ CLLocationManager *locationManager;
             break;
         default:
             // this shouldn't happen
-            proximity = [NSString stringWithFormat:@"%d", beacon.proximity];
+            proximity = [NSString stringWithFormat:@"%ld", (long)beacon.proximity];
             [[self rangeLabel] setText:proximity];
     }
     
